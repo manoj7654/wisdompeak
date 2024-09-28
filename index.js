@@ -12,9 +12,6 @@ const seriesRouter = require("./router/seriesRouter");
 app.use(cors())
 app.use(express.json());
 
-app.use("/",(req,res)=>{
-    res.json({message:"Welcome to the Real State Management API"})
-})
 
 app.use("/api",developerRouter)
 app.use("/api",projectRouter)
