@@ -13,7 +13,7 @@ developerRouter.post("/developers",createDeveloper)
 developerRouter.get("/developers",getAllDevelopers)
 
 // for updating developer by id
-developerRouter.patch("/developers/:id",updateDeveloper)
+developerRouter.put("/developers/:id",updateDeveloper)
 
 // for deleting developer by id
 developerRouter.delete("/developers/:id",deleteDeveloper)

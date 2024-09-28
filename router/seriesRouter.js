@@ -13,7 +13,7 @@ seriesRouter.get("/series", getAllSeries);
 seriesRouter.get("/series/:id",getSeriesById)
 
 // Update series by ID
-seriesRouter.patch("/series/:id", updateSeries);
+seriesRouter.put("/series/:id", updateSeries);
 
 // Delete series by ID
 seriesRouter.delete("/series/:id", deleteSeries);

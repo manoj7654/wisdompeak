@@ -17,7 +17,7 @@ towerRouter.get("/towers", getAllTowers);
 
 towerRouter.get("/towers/:id",getTowerById)
 // Update tower by ID
-towerRouter.patch("/towers/:id", updateTower);
+towerRouter.put("/towers/:id", updateTower);
 
 // Delete tower by ID
 towerRouter.delete("/towers/:id", deleteTower);
